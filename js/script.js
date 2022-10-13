@@ -6,7 +6,9 @@ function setup() {
 
   const particlesLength = Math.floor(window.innerWidth / 10)
 
-  bg = loadImage('img/space.jpg')
+  bg = loadImage(
+    'https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?cs=srgb&dl=pexels-philippe-donn-1169754.jpg&fm=jpg'
+  )
 
   for (let i = 0; i < particlesLength; i++) {
     particles.push(new Particle())
